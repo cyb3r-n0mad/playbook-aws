@@ -91,3 +91,40 @@ lab01-api-gateway-lambda-s3/
 
 ## Usage 
 For use with AWS CLI or over SSH sessions to AWS resources. 
+
+
+## Documentation Goals
+
+Absolutely 💯 — you’re basically building content for your future blog/portfolio while you study.
+
+Here’s how that plays out:
+
+⸻
+
+🔄 From Lab Notes → Website Content
+	•	Lab README.md → can become a blog post draft.
+	•	Example: “How I Connected API Gateway, Lambda, DynamoDB, and S3 in a Serverless Lab”
+	•	Errors & Fixes section → turns into SEO gold (“fixing S3 bucket policy JSON errors” is something tons of junior engineers Google).
+	•	Key Takeaways → becomes your “lesson learned” section that shows growth and practical knowledge.
+	•	Code snippets → go straight into blog posts as examples.
+
+⸻
+
+📂 Workflow Idea
+	1.	Write raw lab notes in your repo while you work.
+	2.	Later, copy the README into your Eleventy/11ty site.
+	3.	Clean it up: add intros, diagrams, and polish tone.
+	4.	Publish — now it’s both a study record and a portfolio piece.
+
+⸻
+
+🚀 Career Benefit
+	•	Hiring managers love seeing real labs, code snippets, and explanations.
+	•	It shows you didn’t just “get a cert” — you actually built, broke, and fixed things.
+	•	For AWS roles, having blog posts with titles like “Debugging IAM JSON policies” or “Building a Serverless API with DynamoDB and S3” makes you look like a hands-on problem-solver.
+
+⸻
+
+👉 You’re basically doing double-duty work: every lab you study now can feed directly into your website and career presence later.
+
+Do you want me to show you how to set up a pipeline so committing a lab README to GitHub can later sync easily into your 11ty site (so you don’t copy-paste manually)?
