@@ -32,7 +32,15 @@ Here’s how that plays out:
  
  # Lab 01: API Gateway + Lambda + DynamoDB + S3
 
-## Goal
+### Problem: 
+
+
+### Solution: 
+
+
+### Definition of Success: 
+
+
 
 
 ## Architecture
@@ -68,7 +76,15 @@ README.md
 # Lab 01: API Gateway + Lambda + DynamoDB + S3
 
 ## Goal
-Expose a Lambda function via API Gateway. Lambda processes data, stores structured results in DynamoDB, and backs up raw input to S3.
+### Problem: 
+My company wants to implement appropriate security measures to protect database, storage systems, and function execution. I'm not sure how to set up secure integration and communication between AWS services in my serverless architecture.
+
+### Solution: 
+You can integrate AWS Lambda, Amazon DynamoDB, Amazon S3, and AWS Identity and Access Management, or IAM, to build a serverless architecture that processes data, stores it securely, and scales efficiently. Create a lamda function that inserts data into a dynamoDB table and uplaods objects into an s3 bucket. We'll use an IAM role with the necessary permissions for the Lambda function to access DynamoDB and S3. We'll also configure an S3 bucket policy to restrict access.
+
+### Definition of Success: 
+The Lambda function will have proper permissions to post to the DynamoDB and S3 bucket. ;
+
 
 ## Architecture
 - API Gateway (HTTP endpoint)
