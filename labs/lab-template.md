@@ -46,8 +46,20 @@ Here’s how that plays out:
 ## Architecture
 - 
   
-## Steps I Took
+## Guided Lab Goals
+-
+
+
+### Steps I took
 1. 
+
+## DIY Lab
+
+### DIY Lab Goals
+
+### Steps I took
+1. 
+
 
 ## Errors & Fixes
 - 
