@@ -79,12 +79,12 @@ Expose a Lambda function via API Gateway. Lambda processes data, stores structur
 
 lab directory structure: (note: actual code files, not just screenshots.)
 lab01-api-gateway-lambda-s3/
-├── README.md
-└── code/
-    ├── lambda-function.js
-    ├── dynamodb-policy.json
-    ├── s3-bucket-policy.json
-    └── api-gateway-config.json
+README.md
+ code/
+    lambda-function.js
+    dynamodb-policy.json
+    s3-bucket-policy.json
+    api-gateway-config.json
 
 
 
