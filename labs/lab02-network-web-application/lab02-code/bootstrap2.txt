@@ -1,0 +1,21 @@
+#!/bin/bash
+LAB_BUCKET="lab-bucket-908feb20
+
+if [ ! -d "/home/ssm-user" ]; then
+  mkdir -p "/home/ssm-user"
+fi
+
+cd /home/ssm-user/
+
+aws s3 cp s3://$LAB_BUCKET/index.html /home/ssm-user/index.html 
+aws s3 cp s3://$LAB_BUCKET/script.js /home/ssm-user/script.js
+aws s3 cp s3://$LAB_BUCKET/server.js /home/ssm-user/server.js
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install --lts
+npm init -y
+npm install pm2@latest -g
+npm install express axios
+pm2 start server.js
