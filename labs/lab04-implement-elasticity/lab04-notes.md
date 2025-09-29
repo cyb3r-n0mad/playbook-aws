@@ -35,14 +35,29 @@ Use Amazon EC2 features to meet predictable and unpredictable demand changes, re
 
 
 ### Steps I took
-1. 
-
-
-
-
-
-
-
+1. Nav to EC2 / Load balancing / target groups
+2. Creating Target group
+    - instances, `Lab-TG`, Set to `LabVPC`, Created target group
+3. create load balancer
+    - Application load balancer, `Lab-ALB`, internet facing, ipv4
+    - set `LabVPC`, set subnets, set security group `PublicSG`, set default action to forward to `Lab-TG`
+    - Load Balncer DNS: `Lab-ALB-597052636.us-east-1.elb.amazonaws.com`
+4. Nav EC2 / instances / launch template
+    - create Launch Template
+    - `Lab-LT`, amazon linux os, t3.micro, set securitry group `PublicSG`, 
+    - enter bootstrap script into user data. 
+5. nav ec2 / autoscaling
+    - `Lab-ASG`, with `Lab-LT` launc template
+    - set `LabVPC`, set 2 public subnets in az's
+    - attach existing load balancer - Load balancer from target group
+    - Enable elastic load balancing health checks
+    - set group size 2, with max and min 2, set to target tracking scaling policy (average CPU 50%, 300 second warmup)
+6. Open Auto scale group `Lab-ASG`
+    - Automatic Scaling - *CREATE SCHEDULED ACTION* Needed for DIY portion
+    - Check Activity, verify activity history shows launching EC2 instances
+7. Nav to ec2, testing the auto launch, by deleting and instance
+    - vewrified that after one was shut down the auto scaling started a new instance
+8. Nav to load balancer dns, step 3, verify http server running. 
 
 
 
@@ -50,16 +65,27 @@ Use Amazon EC2 features to meet predictable and unpredictable demand changes, re
 ## DIY Lab
 
 ### DIY Lab Goals
+    Add a Scheduled Action to the Auto Scaling group.
+    Set the desired capacity to 3.
+    Set the recurrence to 8:00 PM UTC every Friday.
+
 
 ### Steps I took
-1. 
+1. Nav to EC3 / Auto scaleing groups / Lab-ASG / Automatic scaling
+2. `Lab-Action`
+3. desired capacity 3
+4. every week
+5. on friday, 8pm utc
+
 
 
 ## Errors & Fixes
-- 
+- none
 
 ## Key Takeaways
-- 
+- The target groups, and templates are more different than I thought, but it makes sense. 
+- Load balancer seemed pretty straight forward. 
+- Keeping the lab open made the DIY portion very easy. 
 
 ## Next Time
 - 
