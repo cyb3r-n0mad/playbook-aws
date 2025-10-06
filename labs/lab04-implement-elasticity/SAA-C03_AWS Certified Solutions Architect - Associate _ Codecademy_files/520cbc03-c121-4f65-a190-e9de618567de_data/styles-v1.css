@@ -1,0 +1,63 @@
+/* stylelint-disable */
+
+/* Important: Any changes to this file needs a version bump because of the cdn config */
+
+/* Apercu Regular */
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Apercu Regular'),
+    url('./apercu/apercu-regular-pro.woff2') format('woff2');
+}
+
+/* Apercu Bold */
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Apercu Bold'),
+    url('./apercu/apercu-bold-pro.woff2') format('woff2');
+}
+
+/* Apercu Italic */
+@font-face {
+  font-family: 'Apercu';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Apercu Italic'),
+    url('./apercu/apercu-italic-pro.woff2') format('woff2');
+}
+
+/* Apercu Bold Italic */
+@font-face {
+  font-family: 'Apercu';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Apercu Bold Italic'),
+    url('./apercu/apercu-bold-italic-pro.woff2') format('woff2');
+}
+
+/* Suisse Regular */
+@font-face {
+  font-family: 'Suisse';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Suisse Regular'),
+    url('./SuisseIntlMono/SuisseIntlMono-Regular-WebS.woff2') format('woff2');
+}
+
+/* Suisse Bold */
+@font-face {
+  font-family: 'Suisse';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Suisse Bold'),
+    url('./SuisseIntlMono/SuisseIntlMono-Bold-WebS.woff2') format('woff2');
+}
