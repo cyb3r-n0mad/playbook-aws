@@ -1,0 +1,148 @@
+https://www.codecademy.com/ext-paths/saa-c03-aws-certified-solutions-architect-associate
+
+About this certification
+
+Prepare for the SAA-C03: AWS Certified Solutions Architect - Associate exam with a comprehensive journey designed to equip you with the skills and knowledge necessary to design ...
+Details
+Requirements for Certification
+
+    Learn more about the AWS Certified Solutions Architect - Associate exam
+
+Certification Fee
+Syllabus
+16 courses
+(
+20h 5m
+20hours 5minutes)
+3 others
+(
+2h 10m
+2hours 10minutes)
+1
+
+In this track of the SAA-C03: AWS Certified Solutions Architect - Associate journey, the focus will be on the following:
+
+• Designing secure access to AWS resources
+• Designing scalable and loosely coupled architectures
+• Determining high-performing and/or scalable storage solutions
+Course
+AWS Solutions Architect Associate 2022: Architecture & Tools
+Course
+AWS Solutions Architect Associate 2022: Data Storage Services
+Course
+AWS Solutions Architect Associate 2022: Managing S3 Buckets
+2
+
+In this track of the SAA-C03: AWS Certified Solutions Architect - Associate journey, the focus will be on the following:
+
+• Design cost-optimized network architectures
+• Design secure access to AWS resources
+• Design high-performing and elastic compute solutions
+Course
+AWS Solutions Architect Associate 2022: Managing Network Infrastructure
+Course
+AWS Solutions Architect Associate 2022: Connectivity & Name Resolution
+Course
+AWS Solutions Architect Associate 2022: Managing EC2 Instances
+Course
+AWS Solutions Architect Associate 2022: Compute & Data Analysis Services
+3
+
+In this track of the SAA-C03: AWS Certified Solutions Architect - Associate journey, the focus will be on the following:
+
+• Design secure access to AWS resources
+• Design secure workloads and applications
+Course
+AWS Solutions Architect Associate 2022: App & Coding Services
+Course
+AWS Solutions Architect Associate 2022: Security & Data Privacy
+Course
+AWS Solutions Architect Associate 2022: AWS Cryptography & PKI
+Course
+AWS Solutions Architect Associate 2022: Identity & Access Management
+Course
+AWS Solutions Architect Associate 2022: Directory Services Authentication
+Course
+AWS Solutions Architect Associate 2022: Network Security Services
+Course
+AWS Solutions Architect Associate 2022: Governance & Automation
+4
+
+In this track of the SAA-C03: AWS Certified Solutions Architect - Associate journey, the focus will be on the following:
+
+• Design highly available and/or fault-tolerant architectures
+• Determine high-performing and/or scalable storage solutions
+• Design cost-optimized database solutions
+Course
+AWS Solutions Architect Associate 2022: Data & Service Availability
+Course
+AWS Solutions Architect Associate 2022: Cost Management
+5
+
+Practice exams are designed to help you prepare for the exam and perform on exam day. Study at your own pace, whenever you want, and wherever you are most comfortable. Practice with exam-like questions.
+Test Prep
+SAA-C03 : AWS Certified Solutions Architect Associate | Practice Test
+
+
+Skill Benchmark
+AWS Associate Solutions Architect 2022: Design Cost-optimized Architectures Competency (Intermediate Level)
+Skill Benchmark
+AWS Associate Solutions Architect 2022: Design High-performing Architectures Competency (Intermediate Level)
+Skill Benchmark
+AWS Associate Solutions Architect 2022: Design Resilient Architectures Competency (Intermediate Level)
+Skill Benchmark
+AWS Associate Solutions Architect 2022: Design Secure Architectures (Intermediate Level)
+
+AWS Cloud Sandbox
+Linked Content
+Getting Started with AWS Secure Architecture Configuration [Getting Started]
+Linked Content
+Build a Network by Using the VPC Wizard [Guided]
+Linked Content
+Implement Health Checks by Using ELB and Route 53 [Guided]
+Linked Content
+Create an Auto Scaling Group [Guided]
+Linked Content
+Evaluate AWS Config Rules [Guided]
+Linked Content
+Configure a Security Group [Guided]
+Linked Content
+Enable Network Security in AWS [Guided]
+Linked Content
+Create EC2 Instances by Using Auto Scaling [Guided]
+Linked Content
+Implement Security by Using Security Groups [Guided]
+Linked Content
+Implement Security by Using an IAM Role [Guided]
+Linked Content
+Create a Launch Template [Guided]
+Linked Content
+Create a Custom AMI by Using an Existing EC2 Instance [Guided]
+Linked Content
+Configure Storage by Using EBS [Guided]
+Linked Content
+Connect to an EC2 Instance by Using RDP [Guided]
+Linked Content
+Configure Data Transfer and Storage Options for an S3 Bucket [Guided]
+Linked Content
+Configuring Cross Region Replication for an S3 Bucket [Guided]
+Linked Content
+Build VPC Resources Manually [Guided]
+Linked Content
+Can You Enable Cross-Region Replication and Archiving? [Advanced]
+Linked Content
+Can You Implement a Repeatable Compute Layer by Using EC2? [Advanced]
+Linked Content
+Can You Configure an Auto Scaling Group and a Load Balancer? [Advanced]
+Linked Content
+Can You Design an Elastic, Highly Available Architecture in AWS? [Advanced]
+Linked Content
+Can You Create a Resilient System by Using a Launch Template and an Auto Scaling Group? [Advanced]
+Linked Content
+Can You Design a Cloud Network by Using AWS? [Advanced]
+Linked Content
+Can You Configure a Resilient EC2 Server Farm? [Expert]
+Linked Content
+Can You Implement a Highly Available Website? [Expert]
+Linked Content
+Can You Deploy an End-to-End Solution in AWS? [Expert]
