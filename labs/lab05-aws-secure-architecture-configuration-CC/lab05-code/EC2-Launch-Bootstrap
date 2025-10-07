@@ -1,0 +1,8 @@
+#!/bin/bash
+yum update -y
+amazon-linux-extras install epel -y
+yum install stress -y
+yum install -y httpd php
+systemctl start httpd
+systemctl enable httpd
+echo '<center><h1><?php echo $_SERVER["SERVER_ADDR"]; ?></h1></center><br><br><?php phpinfo(); ?>' > /var/www/html/index.php
