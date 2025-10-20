@@ -41,7 +41,7 @@ Use Amazon EC2 features to meet predictable and unpredictable demand changes, re
 3. create load balancer
     - Application load balancer, `Lab-ALB`, internet facing, ipv4
     - set `LabVPC`, set subnets, set security group `PublicSG`, set default action to forward to `Lab-TG`
-    - Load Balncer DNS: `Lab-ALB-597052636.us-east-1.elb.amazonaws.com`
+    - Load Balncer DNS: 
 4. Nav EC2 / instances / launch template
     - create Launch Template
     - `Lab-LT`, amazon linux os, t3.micro, set securitry group `PublicSG`, 
