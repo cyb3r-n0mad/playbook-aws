@@ -19,9 +19,9 @@ The Lambda function will have proper permissions to post to the DynamoDB and S3 
 - IAM (roles used to grant permission for Lambda function) 
   
 ## Steps I Took - Guided Lab Portion
-0. Went to IAM and got 'LabLambdaRole" arn (arn:aws:iam::312160787099:role/LabLambdaRole)
+0. Went to IAM and got 'LabLambdaRole" arn 
 	- Validated the 'LabLambdaRole' has policy for DynamoDBPutItem, and S3 Put item. 
-1. Created S3 bucket `lab-bucket-180920251252` (arn:aws:s3:::lab-bucket-180920251252)
+1. Created S3 bucket `
 2. Created S3 bucket policy 
 	- used given bucket policy
 	- changed resource and account id in policy. 
@@ -43,12 +43,12 @@ The Lambda function will have proper permissions to post to the DynamoDB and S3 
 Invoke diy_func
 
 ## Steps I took
-0. Create s3 bucket. `lab-bucket-180920251324` `arn:aws:s3:::lab-bucket-180920251324`
-1. Updated the `diy_function` Lambda with environmental variable for lab S3 Bucket `lab-bucket-180920251324`
+0. Create s3 bucket. 
+1. Updated the `diy_function` Lambda with environmental variable for lab S3 Bucket 
 2. Need to modify the S3 bucket policy to allow additional roles to post. 
 3. Reviewed the Configuration/Permission tab of `diy_function` to see which role is executing. 
 	- `DIYPermission` in IAM
-4. Navigated to IAM and copied `DIYPermission` arn: `arn:aws:iam::734572734119:role/DIYPermission`
+4. Navigated to IAM and copied `DIYPermission` arn: 
 	- validated this role has an S3 put object policy on account. 
 5. Navigated to S3 lab bucket / permissions, to update bucket policy
 	- updated lab account Id in bucket policy since lab has reset
