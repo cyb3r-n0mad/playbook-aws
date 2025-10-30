@@ -25,9 +25,9 @@ A VPC is a virtual representation of a physical network environment. The VPC est
 
 ### Steps I took
 1. Create VPC
-    - `Lab VPC 55336235` , `10.0.0.0/16`
+    - `Lab VPC ` , `10.0.0.0/16`
 2. Create Security Group- inbound HTTP Access
-    - `HTTP-SG-55336235` 
+    - `HTTP-SG-` 
 3. Create Public Subnets
     - `Public Subnet 1` `us-east-2a` 10.0.0.0/24 - set auto assign IPv4
     - `Public Subnet 2` `us-east-2b` 10.0.0.1.0/24
@@ -45,11 +45,11 @@ A VPC is a virtual representation of a physical network environment. The VPC est
     - `Private Route Table 1` Route to NAT 1, associate to private subnet 1. 
     - `Private Route Table 2 ` Route to NAT 2, associate to private subnet 2
 9. Create launch template
-    - `WebLT-55336235` - Normal  +Metadata version v1 v2 
+    - `WebLT-` - Normal  +Metadata version v1 v2 
 10. Create Auto Scaling Group
     - Launch template, VPC, Subnets
-    - Create new load balancer `WebServerLB-55336235` 
-    - Create new target group - listeners and routing `WebServerTG-55336235` 
+    - Create new load balancer `WebServerLB-` 
+    - Create new target group - listeners and routing `WebServerTG-` 
     - Set new Web Server Tracking Policy - Target Value 80
     - Add Tags Key Name value: Web Server-55336235
 11. Auto scale succesfully deployed 2 instances. 

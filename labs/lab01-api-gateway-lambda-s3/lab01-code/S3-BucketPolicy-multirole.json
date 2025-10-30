@@ -5,12 +5,12 @@
             "Effect": "Deny",
             "Principal": "*",
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::lab-bucket-180920251252/*",
+            "Resource": "arn:aws:s3:::lab-bucket-/*",
             "Condition": {
                 "StringNotEquals": {
                     "aws:PrincipalArn": [
-                        "arn:aws:iam::312160787099:role/LabLambdaRole",
-                        "arn:aws:iam::394958390305:role/diy-functiuon"
+                        "arn:aws:iam:::role/LabLambdaRole",
+                        "arn:aws:iam:::role/diy-functiuon"
                     ]
                 }
             }
